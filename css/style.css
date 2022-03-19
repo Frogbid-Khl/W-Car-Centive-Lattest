@@ -871,6 +871,7 @@ address {
   padding: 10px 0;
   position: relative;
   width: 100%;
+  background: #000000;
 }
 .header_top.dashbord_style{
   background-color: #fff;
@@ -1474,7 +1475,7 @@ header.header-nav.menu_style_home_one.home7_style .container-fluid{
   padding: 0 60px;
 }
 header.header-nav.menu_style_home_one.transparent{
-  background-color: #000000;
+  background-color: #ffffff;
 }
 header.header-nav.menu_style_home_one.transparent.scroll-to-fixed-fixed.stricky-fixed.slideInDown.animated,
 header.header-nav.menu_style_home_one.home3_style.scroll-to-fixed-fixed.stricky-fixed.slideInDown.animated{
@@ -1589,7 +1590,7 @@ header.header-nav.menu_style_home_one.dashbord_pages.stricky-fixed li a{
   color: #ffffff;
 }
 header.header-nav.menu_style_home_one .ace-responsive-menu li a{
-  color: #fff;
+  color: #000000;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -8033,7 +8034,7 @@ form.listing_page_v9{
   background-color: #fff;
 }
 .footer_one.home4_style{
-  background-color: #45505B;
+  background-color: #1d2124;
 }
 .footer_one.home6_style{
   background-color: #0C1227;
@@ -8048,7 +8049,7 @@ form.listing_page_v9{
   background-size: cover;
   background-position: center center;
   border-radius: 8px;
-  margin-bottom: 120px;
+  margin-bottom: 35px;
   padding: 80px 60px;
 }
 .footer_one hr{
@@ -17555,7 +17556,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 850px;
+  height: 815px;
 }
 .bg-home5{
   background-image: url(../images/home/5.jpg);
