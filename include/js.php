@@ -1,0 +1,21 @@
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+<script src="js/ace-responsive-menu.js"></script>
+<script src="js/isotop.js"></script>
+<script src="js/snackbar.min.js"></script>
+<script src="js/simplebar.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/scrollto.js"></script>
+<script src="js/jquery-scrolltofixed-min.js"></script>
+<script src="js/jquery.counterup.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/progressbar.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/timepicker.js"></script>
+<script src="js/wow.min.js"></script>
+<!-- Custom script for all pages -->
+<script src="js/script.js"></script>
