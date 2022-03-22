@@ -1,304 +1,33 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-          content="auto, car, car dealer, car dealership, car listing, cars, classified, dealership, directory, listing, modern, motors, responsive">
-    <meta name="description" content="Voiture - Automotive & Car Dealer HTML Template">
-    <meta name="CreativeLayers" content="ATFN">
-    <!-- css file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive stylesheet -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Title -->
-    <title>Car Centive - Right Car Right Price</title>
-    <!-- Favicon -->
-    <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon"/>
-    <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon"/>
+    <?php
+    include("config/dbController.php");
+    ?>
+    <?php
+    include ("include/css.php");
+    ?>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <![endif]-->
 </head>
 <body>
 <div class="wrapper ovh">
     <div class="preloader"></div>
-    <!-- Sidebar Panel Start -->
-    <div class="listing_sidebar">
-        <div class="siderbar_left_home pt20">
-            <a class="sidebar_switch sidebar_close_btn float-end" href="#">X</a>
-            <div class="footer_contact_widget mt100">
-                <h3 class="title">Quick contact info</h3>
-            </div>
-            <div class="footer_contact_widget">
-                <h5 class="title">CONTACT</h5>
-                <div class="footer_phone">1-(877)-236-8483</div>
-                <p>sales@carcentive.com</p>
-            </div>
-            <div class="footer_about_widget">
-                <h5 class="title">OFFICE</h5>
-                <p>USA —<br> 971 Stuyvesant Ave,
-                    Suite 10,<br>Union, New Jersey 07083</p>
-            </div>
-            <div class="footer_contact_widget">
-                <h5 class="title">OPENING HOURS</h5>
-                <p>Monday – Saturday: 08:00AM – 06:00PM<br>Sunday: Closed</p>
-            </div>
-        </div>
-    </div>
-    <!-- Sidebar Panel End -->
 
-    <!-- header top -->
-    <div class="header_top dn-992">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-xl-7">
-                    <div class="header_top_contact_opening_widget text-md-start">
-                        <ul class="mb0">
-                            <li class="list-inline-item"><a href="#"><span class="flaticon-phone-call"></span>1-(877)-236-8483</a></li>
-                            <li class="list-inline-item"><a href="#"><span class="flaticon-map"></span>971 Stuyvesant Ave, Suite 10, Union, New Jersey 07083</a></li>
-                            <li class="list-inline-item"><a href="#"><span class="flaticon-clock"></span>Mon - Sat 8:00 - 18:00</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-xl-5">
-                    <div class="header_top_social_widgets text-center text-md-end">
-                        <ul class="m0">
-                            <li class="list-inline-item"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Header Nav -->
-    <header class="header-nav menu_style_home_one home6_style transparent main-menu">
-        <!-- Ace Responsive Menu -->
-        <nav>
-            <div class="">
-                <!-- Menu Toggle btn-->
-                <div class="menu-toggle">
-                    <button type="button" id="menu-btn">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <!-- Responsive Menu Structure-->
-                <ul id="respMenu3" class="ace-responsive-menu menu_list_custom_code wa float-start mt20 mr30"
-                    data-menu-style="horizontal">
-                    <li class="sidebar_panel"><a class="sidebar_switch pt0" href="#"><span></span></a></li>
-                </ul>
-                <a href="index.html" class="navbar_brand float-start dn-md">
-                    <img class="logo1 img-fluid" src="images/car_centive.png" alt="Car Centive"
-                         style="width:120px;height: 50px;">
-                </a>
-                <!-- Responsive Menu Structure-->
-                <ul id="respMenu" class="ace-responsive-menu menu_list_custom_code wa float-start"
-                    data-menu-style="horizontal">
-                    <li><a href="#"><span class="title">Car Search</span></a>
-                    </li>
-                    <li><a href="#"><span class="title">Credit Application</span></a>
-                        <!-- Level Two-->
-                        <ul>
-                            <li><a href="#">Make the Payment</a>
-                            </li>
-                            <li><a href="#">Auto Calculator</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span class="title">Sell Your Car</span></a>
-                    </li>
-                    <li><a href="#"><span class="title">Leasing Services</span></a>
-                        <ul>
-                            <li><a href="#">Vehicle Protection Service</a>
-                            </li>
-                            <li><a href="#">Lease Transfer</a>
-                            </li>
-                            <li><a href="#">Auto Insurance</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span class="title">Rental Cars</span></a>
-                    </li>
-                    <li><a href="#"><span class="title">About Us</span></a>
-                    </li>
-                    <li><a href="#"><span class="title">Contact Us</span></a>
-                    </li>
-                </ul>
-                <!-- Responsive Menu Structure-->
-            </div>
-        </nav>
-    </header>
-    <!-- Modal -->
-    <!--<div class="sign_up_modal modal fade" id="logInModal" data-backdrop="static" data-keyboard="false" tabindex="-1"
-         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body container p60">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="sign_up_tab nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home"
-                                       role="tab" aria-controls="home" aria-selected="true">Login</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
-                                       aria-controls="profile" aria-selected="false">Register</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="tab-content container p0" id="myTabContent">
-                        <div class="row mt30 tab-pane fade show active" id="home" role="tabpanel"
-                             aria-labelledby="home-tab">
-                            <div class="col-lg-12">
-                                <div class="login_form">
-                                    <p>New to Cars.com? <a href="page-register.html">Sign up.</a> Are you a dealer?</p>
-                                    <form action="#">
-                                        <div class="mb-2 mr-sm-2">
-                                            <label class="form-label">Username or email address *</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="form-group mb5">
-                                            <label class="form-label">Password *</label>
-                                            <input type="password" class="form-control">
-                                        </div>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="exampleCheck3">
-                                            <label class="custom-control-label" for="exampleCheck3">Remember me</label>
-                                            <a class="btn-fpswd float-end" href="#">Lost your password?</a>
-                                        </div>
-                                        <button type="submit" class="btn btn-log btn-thm mt5">Sign in</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt30 tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="col-lg-12">
-                                <div class="sign_up_form">
-                                    <p>Already have a profile? <a href="page-login.html">Sign in.</a></p>
-                                    <form action="#">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label class="form-label">First Name</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label class="form-label">Last Name</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label class="form-label">Email</label>
-                                                    <input type="email" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb20">
-                                                    <label class="form-label">Password</label>
-                                                    <input type="password" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb20">
-                                                    <label class="form-label">Confirm Password</label>
-                                                    <input type="password" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-signup btn-thm mb0">Sign Up</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
--->
+    <!--top header section-->
+    <?php
+    include("include/header.php");
+    ?>
 
 
+    <!--menubar section-->
+    <?php
+    include("include/menubar.php");
+    ?>
 
-    <!-- Main Header Nav For Mobile -->
-    <div id="page" class="stylehome1 h0">
-        <div class="mobile-menu">
-            <div class="header stylehome1">
-                <div class="mobile_menu_bar">
-                    <a class="menubar" href="#menu"><small>Menu</small><span></span></a>
-                </div>
-                <div class="mobile_menu_main_logo"><img class="logo1 img-fluid" src="images/car_centive.png"
-                                                        alt="Car Centive" style="width:120px;height: 50px;"></div>
-            </div>
-        </div>
-        <!-- /.mobile-menu -->
-        <nav id="menu" class="stylehome1">
-            <ul>
-                <li><a href="#">Car Search</a>
-                </li>
-                <li><a href="#">Credit Application</a>
-                    <ul>
-                        <li><a href="#">Make the Payment</a>
-                        </li>
-                        <li><a href="#">Auto Calculator</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Sell Your Car</a>
-                </li>
-                <li><a href="#">Leasing Services</a>
-                    <ul>
-                        <li><a href="#">Vehicle Protection Service</a>
-                        </li>
-                        <li><a href="#">Lease Transfer</a>
-                        </li>
-                        <li><a href="#">Auto Insurance</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#">Rental Cars</a>
-                </li>
-                <li><a href="#">About Us</a>
-                </li>
-                <li><a href="#">Contact Us</a>
-                </li>
-                <!-- Only for Mobile View -->
-                <li class="mm-add-listing">
-          <span class="border-none">
-            <span class="mmenu-contact-info">
-              <span class="phone-num"><i class="flaticon-map"></i> <a href="#">971 Stuyvesant Ave, Suite 10, Union, New Jersey 07083</a></span>
-              <span class="phone-num"><i class="flaticon-phone-call"></i> <a href="#">1-(877)-236-8483</a></span>
-              <span class="phone-num"><i class="flaticon-clock"></i> <a href="#">Mon - Sat 8:00 - 18:00</a></span>
-            </span>
-            <span class="social-links">
-              <a href="#"><span class="fab fa-facebook-f"></span></a>
-              <a href="#"><span class="fab fa-twitter"></span></a>
-              <a href="#"><span class="fab fa-instagram"></span></a>
-              <a href="#"><span class="fab fa-youtube"></span></a>
-              <a href="#"><span class="fab fa-tictoc"></span></a>
-            </span>
-          </span>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
 
 
@@ -403,7 +132,7 @@
 
 
     <!-- Car Category -->
-    <section class="feature_listing_home4_style pt0 pt120-md pb90">
+    <section class="feature_listing_home4_style pt0 pt120-md pb5">
         <div class="container">
             <div class="row mb90">
                 <div class="col-xl-9 m-auto">
@@ -468,44 +197,33 @@
 
 
     <!-- Our Partners -->
-    <section class="our-partner pt50 pb80">
-        <div class="container">
-            <div class="partner_divider">
-                <div class="row">
-                    <div class="col-6 col-xs-6 col-sm-4 col-xl-2">
-                        <div class="partner_item home4_style">
-                            <img src="images/1.png" alt="1.png">
-                        </div>
-                    </div>
-                    <div class="col-6 col-xs-6 col-sm-4 col-xl-2">
-                        <div class="partner_item home4_style">
-                            <img src="images/1.png" alt="2.png">
-                        </div>
-                    </div>
-                    <div class="col-6 col-xs-6 col-sm-4 col-xl-2">
-                        <div class="partner_item home4_style">
-                            <img src="images/1.png" alt="3.png">
-                        </div>
-                    </div>
-                    <div class="col-6 col-xs-6 col-sm-4 col-xl-2">
-                        <div class="partner_item home4_style">
-                            <img src="images/1.png" alt="4.png">
-                        </div>
-                    </div>
-                    <div class="col-6 col-xs-6 col-sm-4 col-xl-2">
-                        <div class="partner_item home4_style">
-                            <img src="images/1.png" alt="5.png">
-                        </div>
-                    </div>
-                    <div class="col-6 col-xs-6 col-sm-4 col-xl-2">
-                        <div class="partner_item home4_style">
-                            <img src="images/1.png" alt="6.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="images/brand/1.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/2.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/3.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/4.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/5.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/6.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/7.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/8.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/9.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/10.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/11.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/12.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/13.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/14.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/15.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/16.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/17.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/18.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/19.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/20.png" style="width: 150px; height: 150px"></div>
+                <div class="slide"><img src="images/brand/21.png" style="width: 150px; height: 150px"></div>
+            </section>
+
+
+
+
 
 
 
@@ -1435,125 +1153,48 @@
         </div>
     </section>
 
-   <!-- Newslatter sectio -->
-    <div class="container">
-        <div class="feature_icons home7_style">
-            <div class="row">
-                <div class="col-lg-6 col-xl-7">
-                    <div class="mailchimp_widget home7_style mb30-md">
-                        <div class="details">
-                            <h3 class="title">Subscribe our newsletter</h3>
-                            <p class="para">Your download should start automatically, if not Click here. Should I give up, huh?.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-5">
-                    <div class="footer_social_widget">
-                        <form class="footer_mailchimp_form home2 home7_style">
-                            <div class="row align-items-center">
-                                <div class="col-auto">
-                                    <input type="email" class="form-control" placeholder="Your Email...">
-                                    <button class="btn-thm" type="submit">Subscribe</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Our Footer -->
-    <section class="footer_one home4_style pt20 pb-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-xl-7">
-                    <div class="footer_about_widget text-start">
-                        <div class="logo mb40 mb0-sm"><img src="images/car_centive.png" style="height: 50px; width: 150px;" alt="header-logo3.png"></div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-xl-5">
-                    <div class="footer_menu_widget text-start text-md-end mt15">
-                        <ul>
-                            <li class="list-inline-item"><a href="#">Car Search</a></li>
-                            <li class="list-inline-item"><a href="#">Sell Your Car</a></li>
-                            <li class="list-inline-item"><a href="#">Rental Cars</a></li>
-                            <li class="list-inline-item"><a href="#">About Us</a></li>
-                            <li class="list-inline-item"><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="container pt20 pt20-sm pb20 pb0-sm">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="footer_about_widget">
-                        <h5 class="title">OFFICE</h5>
-                        <p>USA —<br>971 Stuyvesant Ave,<br> Suite 10, <br> Union, New Jersey 07083</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="footer_contact_widget">
-                        <h5 class="title">NEED HELP</h5>
-                        <div class="footer_phone">1-(877)-236-8483</div>
-                        <p>sales@carcentive.com</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="footer_contact_widget">
-                        <h5 class="title">OPENING HOURS</h5>
-                        <p>Monday – Saturday: 08:00AM – 06:00PM<br>Sunday: Closed</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <div class="footer_contact_widget">
-                        <h5 class="title">KEEP IN TOUCH</h5>
-                        <form class="footer_mailchimp_form">
-                            <div class="wrapper">
-                                <div class="col-auto">
-                                    <input type="email" class="form-control" placeholder="Enter your email...">
-                                    <button type="submit">GO</button>
-                                </div>
-                            </div>
-                        </form>
-                        <p>Get latest updates and offers.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-8 col-xl-9">
-                    <div class="copyright-widget mt5 text-start mb20-sm">
-                        <p>FrogBid © 2022. All Rights Reserved.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="footer_social_widget text-start text-md-end">
-                        <ul class="mb0">
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
+    <!--newslatter section-->
+    <?php
+    include("include/newslatter.php");
+    ?>
 
-    <a class="scrollToHome" href="#"><i class="fas fa-arrow-up"></i></a></div>
+
+    <!--footer section and go to top button-->
+    <?php
+    include("include/footer.php");
+    ?>
+
 <!-- Wrapper End -->
 
 
 
-
+<script>
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: true,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
 
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/jquery-migrate-3.0.0.min.js"></script>

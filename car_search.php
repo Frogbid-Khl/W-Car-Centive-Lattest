@@ -25,7 +25,7 @@
 
 
     <!-- Inner Page Breadcrumb -->
-    <section class="advance_search_menu_sectn bgc-thm2 pt20 pb0 mt70-992">
+    <section class="advance_search_menu_sectn bgc-thm2 pt200 pb0 mt70-992">
         <div class="container">
             <div class="row">
                 <div class="col col-sm-4 col-lg-2">

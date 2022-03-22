@@ -16,9 +16,9 @@
                 data-menu-style="horizontal">
                 <li class="sidebar_panel"><a class="sidebar_switch pt0" href="#"><span></span></a></li>
             </ul>
-            <a href="index.html" class="navbar_brand float-start dn-md">
+            <a href="index.php" class="navbar_brand float-start dn-md">
                 <img class="logo1 img-fluid" src="images/car_centive.png" alt="Car Centive"
-                     style="width:120px;height: 50px;">
+                     style="width:170px;height: 70px;padding-bottom: 10px;">
             </a>
             <!-- Responsive Menu Structure-->
             <ul id="respMenu" class="ace-responsive-menu menu_list_custom_code wa float-start"
@@ -30,10 +30,8 @@
                     <ul>
                         <li><a href="payment.php">Make the Payment</a>
                         </li>
-                        <li><a href="#">Auto Calculator</a></li>
+                        <li><a href="loan_calculator.php">Auto Calculator</a></li>
                     </ul>
-                </li>
-                <li><a href="sell_car.php"><span class="title">Sell Your Car</span></a>
                 </li>
                 <li><a href="#"><span class="title">Leasing Services</span></a>
                     <ul>
@@ -44,6 +42,8 @@
                         <li><a href="auto_insurance.php">Auto Insurance</a>
                         </li>
                     </ul>
+                </li>
+                <li><a href="sell_car.php"><span class="title">Sell Your Car</span></a>
                 </li>
                 <li><a href="rental.php"><span class="title">Rental Cars</span></a>
                 </li>
@@ -183,7 +183,7 @@
                 <ul>
                     <li><a href="payment.php">Make the Payment</a>
                     </li>
-                    <li><a href="#">Auto Calculator</a></li>
+                    <li><a href="loan_calculator.php">Auto Calculator</a></li>
                 </ul>
             </li>
             <li><a href="sell_car.php">Sell Your Car</a>

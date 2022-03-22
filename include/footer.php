@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-4 col-xl-7">
                 <div class="footer_about_widget text-start">
-                    <div class="logo mb40 mb0-sm"><img src="images/car_centive.png"
-                                                       style="height: 50px; width: 150px;" alt="header-logo3.png">
+                    <div class="logo mb40 mb0-sm"><a href="index.php"><img src="images/car_centive.png"
+                                                       style="height: 50px; width: 150px;" alt="header-logo3.png"></a>
                     </div>
                 </div>
             </div>
@@ -35,14 +35,17 @@
                 <div class="footer_contact_widget">
                     <h5 class="title">NEED HELP</h5>
                     <div class="footer_phone">1-(877)-236-8483</div>
-                    <p>sales@carcentive.com</p>
+                    <p style="font-size: 20px">sales@carcentive.com</p>
+                    <div class="footer_contact_widget mt-5">
+                        <h5 class="title">OPENING HOURS</h5>
+                        <p>Monday – Saturday: 08:00AM – 06:00PM<br>Sunday: Closed</p>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                <div class="footer_contact_widget">
-                    <h5 class="title">OPENING HOURS</h5>
-                    <p>Monday – Saturday: 08:00AM – 06:00PM<br>Sunday: Closed</p>
-                </div>
+                <p style="font-size: 15px; color: #c1c1c1">At CarCentive, we save you time, money and peace of mind! No need to deal with the headaches of sitting in a dealership for hours on end
+                    and haggling with pushy sales reps. With our robust dealer network, we’re able to get wholesale pricing and guarantee the most competitive
+                    lease or purchase price on any new vehicle.</p>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
                 <div class="footer_contact_widget">

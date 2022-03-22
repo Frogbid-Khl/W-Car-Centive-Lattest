@@ -867,11 +867,11 @@ address {
 /*== Header Top Style ==*/
 .header_top{
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  display: inline-block;
   padding: 10px 0;
-  position: relative;
+  position: fixed;
   width: 100%;
-  background: #000000;
+  background: #004faa;
+  z-index: 9999;
 }
 .header_top.dashbord_style{
   background-color: #fff;
@@ -891,7 +891,7 @@ address {
 .header_top_contact_opening_widget ul li a,
 .header_top_social_widgets ul li a{
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 15px;
@@ -1476,6 +1476,7 @@ header.header-nav.menu_style_home_one.home7_style .container-fluid{
 }
 header.header-nav.menu_style_home_one.transparent{
   background-color: #ffffff;
+  border-bottom: 1px solid #004faa;
 }
 header.header-nav.menu_style_home_one.transparent.scroll-to-fixed-fixed.stricky-fixed.slideInDown.animated,
 header.header-nav.menu_style_home_one.home3_style.scroll-to-fixed-fixed.stricky-fixed.slideInDown.animated{
@@ -1548,8 +1549,10 @@ header.header-nav.menu_style_home_one.home5_style a.navbar_brand{
   width: 10%;
 }
 header.header-nav.menu_style_home_one.home6_style{
-  display: inline-block;
   width: 100%;
+  position: fixed;
+  margin-top: 74px;
+  z-index: 999;
 }
 header.header-nav.menu_style_home_one.home6_style a.navbar_brand{
   margin-right: 35px;
@@ -1591,7 +1594,7 @@ header.header-nav.menu_style_home_one.dashbord_pages.stricky-fixed li a{
 }
 header.header-nav.menu_style_home_one .ace-responsive-menu li a{
   color: #000000;
-  font-size: 13px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
@@ -4775,7 +4778,7 @@ form.listing_page_v9{
   padding: 0;
 }
 .home-one.home4_style{
-  margin-top: -86px;
+  margin-top: -50px;
 }
 .home-one.home5_style{
   display: flex;
@@ -8034,7 +8037,7 @@ form.listing_page_v9{
   background-color: #fff;
 }
 .footer_one.home4_style{
-  background-color: #1d2124;
+  background-color: #182e48;
 }
 .footer_one.home6_style{
   background-color: #0C1227;
@@ -8093,7 +8096,7 @@ form.listing_page_v9{
 .footer_about_widget .title,
 .footer_contact_widget .title{
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
@@ -8119,7 +8122,7 @@ form.listing_page_v9{
 .footer_about_widget p,
 .footer_contact_widget p{
   color: rgba(255, 255, 255, 0.7);
-  font-size: 13px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -23660,6 +23663,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
   .video-container .overlay-desc h1 {
     font-size: 1.5rem !important;
     line-height: 1.2;
+    max-height: 350px;
   }
   .video-container .overlay-desc h1 br {
     display: none;
@@ -23672,3 +23676,4 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
     font-size: 14px;
   }
 }
+

@@ -25,7 +25,7 @@
 
 <!-- header top -->
 <div class="header_top dn-992">
-    <div class="container">
+    <div class="m-3">
         <div class="row">
             <div class="col-lg-8 col-xl-7">
                 <div class="header_top_contact_opening_widget text-md-start">
