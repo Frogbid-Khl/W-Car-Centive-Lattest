@@ -2,16 +2,9 @@
 <html dir="ltr" lang="en">
 <head>
     <?php
-    include("config/dbController.php");
-    ?>
-    <?php
     include ("include/css.php");
     ?>
 
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <![endif]-->
 </head>
 <body>
 <div class="wrapper ovh">
@@ -22,14 +15,10 @@
     include("include/header.php");
     ?>
 
-
     <!--menubar section-->
     <?php
     include("include/menubar.php");
     ?>
-
-
-
 
 
     <!-- Home Design -->

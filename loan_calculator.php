@@ -22,6 +22,7 @@
             overflow: auto;
             align-items: center;
             justify-content: center;
+            margin-top: 200px;
         }
 
         .calcBtn{

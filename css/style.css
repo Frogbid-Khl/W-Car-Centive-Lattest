@@ -8405,6 +8405,7 @@ form.listing_page_v9{
   background-size: cover;
   padding: 90px 0;
   position: relative;
+  margin-top: 168px;
 }
 .inner_page_breadcrumb.style2 {
   background: #f9f9f9;
@@ -10792,6 +10793,7 @@ a.btn_error{
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #EAEAEA;
+  margin-top: 180px;
 }
 .ui_kit_tab.style2 .nav.nav-tabs .nav-item{
 

@@ -26,7 +26,7 @@
 
 
     <!-- Inner Page Breadcrumb -->
-    <section class="inner_page_breadcrumb style2 inner_page_section_spacing">
+    <section class="inner_page_breadcrumb style2 inner_page_section_spacing" style="margin-top: 200px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">

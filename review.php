@@ -20,6 +20,7 @@
         .spacer2{
             height:20px;
             width:100%;
+            margin-top: 200px;
         }
         /* spacer ends */
 

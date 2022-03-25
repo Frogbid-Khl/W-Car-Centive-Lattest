@@ -15,7 +15,7 @@ if($newsletter == true){
         Swal.fire({
             icon: 'success',
             title: 'Congratulation',
-            text: 'We have received your information! You will be updated soon.!'
+            text: 'We have received your information! You will be updated soon.'
         }).then(function() {
             window.location = "index.php";
         });
@@ -54,16 +54,16 @@ if($newsletter == true){
                     <form class="footer_mailchimp_form home2 home7_style" method="post" action="" enctype="multipart/form-data">
                         <div class="row align-items-center">
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" name="fname" placeholder="First Name...">
+                                <input type="text" class="form-control" name="fname" placeholder="First Name..." required>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" name="lname" placeholder="Last Name...">
+                                <input type="text" class="form-control" name="lname" placeholder="Last Name..." required>
                             </div>
 
                         </div>
                         <div class="row align-items-center">
                             <div class="col-md-12">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email...">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email..." required>
                                 <button class="btn-thm mt-3" type="submit" name="newsletter">Subscribe</button>
                             </div>
                         </div>

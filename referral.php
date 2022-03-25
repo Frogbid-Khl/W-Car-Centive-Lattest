@@ -40,62 +40,9 @@
     <section class="service-forms bgc-f9">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-xl-8">
-                    <div class="service_form mb30-sm">
-                        <h5 class="title">REFER FRIENDS & EARN!</h5>
-                        <div class="contact_form">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <label class="form-label">Referral's Name: <span style="color: red;">*</span></label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <label class="form-label">Referral's Email Address: <span style="color: red;">*</span></label>
-                                        <input class="form-control email" type="email">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="mb-4">
-                                        <label class="form-label">Referral's Phone Number: <span style="color: red;">*</span></label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <label class="form-label">Your Name: <span style="color: red;">*</span></label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <label class="form-label">Your Email Address: <span style="color: red;">*</span></label>
-                                        <input class="form-control" type="email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <label class="form-label">Your Phone Number: <span style="color: red;">*</span></label>
-                                        <input class="form-control" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group mb30-md">
-                                        <label for="comment">Comment <span style="color: red">*</span></label>
-                                        <textarea class="form-control" id="comment" rows="3"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="mb-0">
-                                        <button type="button" class="btn btn-thm">Request Service</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                include("include/referral_form.php");
+                ?>
                 <div class="col-md-5 col-xl-4">
                     <div class="opening_hour_widgets">
                         <div class="wrapper">
