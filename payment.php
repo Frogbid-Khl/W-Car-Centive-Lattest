@@ -23,7 +23,7 @@
 
     <!--main body content starts here-->
 
-    <div class="row mx-auto">
+    <div class="row mx-auto payment_heading">
         <div class="shortcode_widget_tab">
             <h2 class="m-3">MAKE A PAYMENT</h2>
 

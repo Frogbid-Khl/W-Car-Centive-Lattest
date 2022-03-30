@@ -22,6 +22,17 @@
             width:100%;
             margin-top: 200px;
         }
+
+        @media screen and (max-width: 1128px) {
+            .spacer2{
+                margin-top: 200px;
+            }
+        }
+        @media screen and (max-width: 992px) {
+            .spacer2{
+                margin-top: 200px;
+            }
+        }
         /* spacer ends */
 
         /* slider styles */

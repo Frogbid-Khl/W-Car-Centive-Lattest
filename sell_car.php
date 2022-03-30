@@ -103,7 +103,7 @@
 
 
     <!--main body content starts here-->
-    <div class="container p-3" style="margin-top: 200px">
+    <div class="container p-3 sell_car_heading">
         <h1>Sell Your Car</h1>
         <h5><span style="color: #004faa; font-weight: bold; font-size: 16px;">Step 1:</span> Share a few vehicle details in the form below. A member of our team will contact you with a real offer. No haggling. No hassles.</h5>
         <h5><span style="color: #004faa; font-weight: bold; font-size: 16px;">Step 2:</span> After your initial offer is received consider Leasing or Trading In for your new Vehicle. We will be happy to discuss both options with you.</h5>

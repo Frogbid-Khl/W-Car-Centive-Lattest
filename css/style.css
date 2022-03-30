@@ -9900,7 +9900,7 @@ a.btn_error{
   margin: 0;
 }
 .service_include{
-  margin: 180px 0 30px;
+  margin: 25px 0 30px;
   position: relative;
 }
 .service_include .title{
@@ -10793,7 +10793,7 @@ a.btn_error{
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #EAEAEA;
-  margin-top: 180px;
+  margin-top: 1px;
 }
 .ui_kit_tab.style2 .nav.nav-tabs .nav-item{
 
@@ -17634,7 +17634,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   background-size: cover;
 }
 section {
-  padding: 80px 0;
+  padding: 25px 0;
   position: relative;
 }
 section.inner_page_section_spacing{
@@ -23679,3 +23679,32 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
   }
 }
 
+.payment_heading{
+  margin-top: 180px;
+}
+
+.sell_car_heading{
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 1128px) {
+  .payment_heading{
+    margin-top: 250px;
+  }
+  .sell_car_heading{
+    margin-top: 250px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .payment_heading{
+    margin-top: 62px;
+  }
+  .paymentCalc{
+    margin-top: 75px !important;
+  }
+  .sell_car_heading{
+    margin-top: 75px;
+  }
+}

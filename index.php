@@ -27,7 +27,7 @@
             <div class="row posr">
                 <div class="col-xl-11 col-xxl-10 m-auto">
                     <div class="home_content home1_style at_home4">
-                        <div class="home-text text-center mb30">
+                        <div class="home-text text-center mb30 pt80">
                             <h2 class="title"><span class="aminated-object1"><img class="objects"
                                                                                   src="images/home/title-bottom-border.svg"
                                                                                   alt=""></span>Right Car. Right Price.
@@ -123,7 +123,7 @@
     <!-- Car Category -->
     <section class="feature_listing_home4_style pt0 pt120-md pb5">
         <div class="container">
-            <div class="row mb90">
+            <div class="row">
                 <div class="col-xl-9 m-auto">
                     <div class="row">
                         <div class="col-6 col-sm-6 col-md-4 col-lg col-xl">
@@ -702,7 +702,7 @@
 
 <!--why choose us section-->
     <div class="container mb-5">
-        <div class="row mt100 justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="main-title text-center">
                     <h2>Why Choose Us?</h2>
