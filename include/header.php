@@ -31,7 +31,6 @@
                 <div class="header_top_contact_opening_widget text-md-start">
                     <ul class="mb0">
                         <li class="list-inline-item"><a href="#"><span class="flaticon-phone-call"></span>1-(877)-236-8483</a></li>
-                        <li class="list-inline-item"><a href="#"><span class="flaticon-map"></span>971 Stuyvesant Ave, Suite 10, Union, New Jersey 07083</a></li>
                         <li class="list-inline-item"><a href="#"><span class="flaticon-clock"></span>Mon - Sat 8:00 - 18:00</a></li>
                     </ul>
                 </div>

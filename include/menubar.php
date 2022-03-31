@@ -19,7 +19,7 @@
             </ul>
             <a href="index.php" class="navbar_brand float-start dn-md">
                 <img class="logo1 img-fluid" src="images/car_centive.png" alt="Car Centive"
-                     style="width:170px;height: 70px;padding-bottom: 10px;">
+                     style="width:260px;height: 75px;padding-bottom: 10px;">
             </a>
             <!-- Responsive Menu Structure-->
             <ul id="respMenu" class="ace-responsive-menu menu_list_custom_code wa float-start"

@@ -617,7 +617,7 @@
 
 
     <!-- Our Popular Listing -->
-    <section class="popular-listing pt0 pb110">
+    <section class="popular-listing pt0">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -702,7 +702,7 @@
 
 <!--why choose us section-->
     <div class="container mb-5">
-        <div class="row justify-content-center">
+        <div class="row mt100 justify-content-center">
             <div class="col-lg-8">
                 <div class="main-title text-center">
                     <h2>Why Choose Us?</h2>
