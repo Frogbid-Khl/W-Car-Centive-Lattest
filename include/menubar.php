@@ -19,7 +19,7 @@
             </ul>
             <a href="index.php" class="navbar_brand float-start dn-md">
                 <img class="logo1 img-fluid" src="images/car_centive.png" alt="Car Centive"
-                     style="width:260px;height: 75px;padding-bottom: 10px;">
+                     style="width:240px;padding-bottom: 10px;">
             </a>
             <!-- Responsive Menu Structure-->
             <ul id="respMenu" class="ace-responsive-menu menu_list_custom_code wa float-start"
@@ -172,7 +172,7 @@
                 <a class="menubar" href="#menu"><small>Menu</small><span></span></a>
             </div>
             <div class="mobile_menu_main_logo"><img class="logo1 img-fluid" src="images/car_centive.png"
-                                                    alt="Car Centive" style="width:120px;height: 50px;"></div>
+                                                    alt="Car Centive" style="width:170px;padding-top: 10px"></div>
         </div>
     </div>
     <!-- /.mobile-menu -->

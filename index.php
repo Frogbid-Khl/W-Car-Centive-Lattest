@@ -212,9 +212,93 @@
 
 
 
+    <!-- Features Listings -->
+    <section class="featured-product">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="main-title text-center">
+                        <h2>Free Consultation</h2>
+                    </div>
+                </div>
+            </div>
+            <form action="" class="mt-3" enctype="multipart/form-data" method="post">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">First Name <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="fname" required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Last Name <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="lname" required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Type of Purchase <span style="color: red">*</span></label>
+                            <select class="form-select" name="purchase_type" required="">
+
+                                <option value="">Choose Type of Purchase</option>
+
+                                <option value="Dealership Purchase">Dealership Purchase</option>
+
+                                <option value="Private Purchase">Private Purchase</option>
+
+                                <option value="Lease a Car">Lease a Car</option>
+
+                                <option value="Lease Buyout">Lease Buyout</option>
+
+                                <option value="Lease Transfer">Lease Transfer</option>
+
+                                <option value="Sell a Car">Sell a Car</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Phone No. <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Email <span style="color: red">*</span></label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                    </div>
 
 
-
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Date & Time <span style="color: red">*</span></label>
+                            <input type="datetime-local" class="form-control" name="email" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Monthly Budget <span style="color: red">*</span></label>
+                            <input type="text" class="form-control" name="vin" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label">Down payment Amount <span style="color: red">*</span></label>
+                            <input type="number" class="form-control" name="year" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-signup btn-thm m-3" name="submit">Submit</button>
+            </form>
+        </div>
+    </section>
 
     <!-- Features Listings -->
     <section class="featured-product">

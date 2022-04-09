@@ -17709,8 +17709,6 @@ section.inner_page_section_spacing{
   width: 100%;
   z-index: 99999; }
 
-.scrollToHome:hover {
-  color: #ffffff; }
 .scrollToHome {
   bottom: 15px;
   height: 45px;
@@ -17726,6 +17724,11 @@ section.inner_page_section_spacing{
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+.scrollToHome:hover {
+  color: #ffffff;
+}
+
 .scrollToHome.home3 {
   background-color: #CF3E3B;
 }
