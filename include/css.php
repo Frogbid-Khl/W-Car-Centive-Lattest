@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("config/dbcontroller.php");
+require_once("config/dbController.php");
 $db = new DBController();
 ?>
 

@@ -36,12 +36,12 @@
                 </div>
             </div>
             <div class="col-lg-4 col-xl-5">
-                <div class="header_top_social_widgets text-center text-md-end">
-                    <ul class="m0">
-                        <li class="list-inline-item"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
-                        <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                <div class="footer_social_widget text-start text-md-end">
+                    <ul class="mb0">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
