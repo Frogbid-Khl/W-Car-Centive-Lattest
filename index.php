@@ -226,21 +226,21 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">First Name <span style="color: red">*</span></label>
+                            <label class="form-label">First Name </label>
                             <input type="text" class="form-control" name="fname" required>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Last Name <span style="color: red">*</span></label>
+                            <label class="form-label">Last Name </label>
                             <input type="text" class="form-control" name="lname" required>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Type of Purchase <span style="color: red">*</span></label>
+                            <label class="form-label">Type of Purchase </label>
                             <select class="form-select" name="purchase_type" required="">
 
                                 <option value="">Choose Type of Purchase</option>
@@ -263,14 +263,14 @@
 
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Phone No. <span style="color: red">*</span></label>
+                            <label class="form-label">Phone No. </label>
                             <input type="text" class="form-control" name="phone" required>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Email <span style="color: red">*</span></label>
+                            <label class="form-label">Email </label>
                             <input type="email" class="form-control" name="email" required>
                         </div>
                     </div>
@@ -278,19 +278,19 @@
 
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Date & Time <span style="color: red">*</span></label>
+                            <label class="form-label">Date & Time </label>
                             <input type="datetime-local" class="form-control" name="email" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Monthly Budget <span style="color: red">*</span></label>
+                            <label class="form-label">Monthly Budget </label>
                             <input type="text" class="form-control" name="vin" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label">Down payment Amount <span style="color: red">*</span></label>
+                            <label class="form-label">Down payment Amount </label>
                             <input type="number" class="form-control" name="year" required>
                         </div>
                     </div>

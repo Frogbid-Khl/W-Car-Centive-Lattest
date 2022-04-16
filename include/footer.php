@@ -2,7 +2,7 @@
 <section class="footer_one home4_style pt20 pb-3">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="logo mb40 mb0-sm"><a href="index.php"><img src="images/car_centive.png"
                                                                        class="img-fluid p-2" alt="header-logo3.png"></a>
                 </div>
@@ -14,13 +14,13 @@
                     <li><a href="#" class="text-white" style="font-size: 15px">Rental Cars</a></li>
                 </ul>
             </div>
-            <div class="col-md-2 text-white">
+            <div class="col-md-1 text-white">
                 <ul style="list-style-type:disc;line-height: 3;color: #ffffff">
                     <li><a href="#" class="text-white" style="font-size: 15px">About Us</a></li>
                     <li><a href="#" class="text-white" style="font-size: 15px">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 text-white" style="font-size: 15px">
+            <div class="col-md-3 text-white" style="font-size: 14px">
                 At CarCentive, we save you time, money and peace of mind! No need to
                 deal with the headaches of sitting in a dealership for
                 hours on end and haggling with pushy sales reps. With our
